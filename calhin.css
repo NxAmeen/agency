@@ -3,7 +3,7 @@
 \*-----------------------------------*/
 
 /**
- * copyright 2023 zeecode 
+ * copyright 2023 zeekode 
  */
 
 
@@ -234,7 +234,15 @@ body.nav-active {overflow: hidden;}
     align-items: center;
 }
 
-.header .logo img {width: 100px; height: 100px;}
+.header .logo img {width: 155px; height: 100px;}
+
+
+/* additional add for 
+.header .font img {
+    position: absolute;
+    top: 125px;
+    left: 50px;
+} */
 
 .nav-open-btn {
     color: var(--text-white);
