@@ -168,6 +168,36 @@
     color: white;
   }
 
+    /* nigga code */
+    .card-parent {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 4rem;
+      }
+      
+      @media(min-width: 300px) and (max-width: 720px) {
+            .card-parent{
+              flex-direction: column;
+              gap: 2rem;
+            }
+            .price-columns {
+              width: 100%;
+              border-radius: 5rem;
+            }
+            .price-columns:first-child{
+                border-top-right-radius: 50px;
+                border-bottom-right-radius: 50px;
+            }
+            .price-columns:last-child{
+                border-top-left-radius: 50px;
+                border-bottom-left-radius: 50px;
+            }
+        
+      }
+
 
 
 
