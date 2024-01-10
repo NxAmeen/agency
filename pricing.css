@@ -41,6 +41,7 @@
   }
 
   .price-columns.popular{
+    position: relative;
     background: var(--accent-color);
     box-shadow: 0 7px 30px rgba(52, 13, 135, 0.4);
     margin-top: -1.5rem;
@@ -122,6 +123,18 @@
     text-decoration-line: line-through;
   }
 
+  .most-popular{
+    position: absolute;
+    top: .5rem;
+    left: .5rem;
+    right: .5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: var(--heading-font-family);
+
+  }
+
   .cta{
     border: none;
     background-color: var(--accent-color);
@@ -144,6 +157,15 @@
 
   .cta:hover, .cta:focus {
     transform: scale(1.1);
+  }
+
+  .cta:is(:hover,:focus-visible) {
+    background-color: purple;
+  }
+
+ .price-columns.popular .cta:is(:hover,:focus-visible) {
+    background-color: purple;
+    color: white;
   }
 
 
