@@ -483,7 +483,7 @@ body.nav-active {overflow: hidden;}
     /* custom property */
     :root {
         /* typography */
-        /* fontsize */
+        /* font size */
         --fontSize-1: 5.5rem;
         --fontSize-2: 4rem;
 
@@ -493,7 +493,7 @@ body.nav-active {overflow: hidden;}
     }
 
 
-    /* reusedstyle */
+    /* reused style */
     .container{
         max-width: 720px;
     }
@@ -679,7 +679,7 @@ body.nav-active {overflow: hidden;}
     /* custom property */
     :root{
         /* typography */
-        /* fontsize */
+        /* font size */
         --fontSize-1: 7rem;
         --fontSize-3: 2.8rem;
     }
@@ -700,12 +700,12 @@ body.nav-active {overflow: hidden;}
     /* custom property */
     :root{
         /* typography */
-        /* fontsize */
+        /* font size */
         --fontSize-1: 8rem;
     }
 
 
-    /* reusedstyle */
+    /* reused style */
     .container{max-width: 1350px;}
 
     .section-text{margin-block-end: 60px;}
@@ -905,6 +905,8 @@ body.nav-active {overflow: hidden;}
     background-color: purple;
     color: white;
   }
+
+  
 
 
 
