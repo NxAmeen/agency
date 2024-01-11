@@ -235,7 +235,7 @@ body.nav-active {overflow: hidden;}
 }
 
 .header .logo img {
-    width: 150px; height: 150px;
+    width: 100px; height: 100px;
 }
 
 
@@ -621,6 +621,13 @@ body.nav-active {overflow: hidden;}
     .navbar-link:is(:hover, :focus-visible) { color: var(--text-white-alpha-60);}
 
     .header .btn{margin-inline-end: 0;}
+
+
+    /* add on */
+    .header .logo img{
+        height: 175px;
+        height: 175px;
+    }
 
 
     /* hero */
