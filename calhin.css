@@ -234,7 +234,7 @@ body.nav-active {overflow: hidden;}
     align-items: center;
 }
 
-.header .logo img {width: 155px; height: 100px;}
+.header .logo img {width: 100px; height: 100px;}
 
 
 /* additional add for 
@@ -827,7 +827,7 @@ body.nav-active {overflow: hidden;}
 
   .plan-name{
     text-transform: uppercase;
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-top: 1rem;
     margin-bottom: 0;
   }
