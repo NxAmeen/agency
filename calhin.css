@@ -234,7 +234,9 @@ body.nav-active {overflow: hidden;}
     align-items: center;
 }
 
-.header .logo img {width: 100px; height: 100px;}
+.header .logo img {
+    width: 150px; height: 150px;
+}
 
 
 /* additional add for 
